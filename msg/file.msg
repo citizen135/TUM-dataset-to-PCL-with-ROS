@@ -1,0 +1,2 @@
+string rgb
+string depth
