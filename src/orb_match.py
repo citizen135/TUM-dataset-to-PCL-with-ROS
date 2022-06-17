@@ -1,5 +1,4 @@
 # ORB로 특징점 및 특징 디스크립터 검출 (desc_orb.py)
-
 import cv2
 import numpy as np
 

@@ -136,8 +136,6 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(rgbd src/rgbd.cpp)
 target_link_libraries(rgbd ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
-add_executable(ee src/ee.cpp)
-target_link_libraries(ee ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
 add_executable(rgbd_point src/rgbd_point.cpp)
 target_link_libraries(rgbd_point ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
 add_executable(world src/world.cpp)
@@ -146,6 +144,9 @@ add_executable(rgbd_w_t src/rgbd_w_t.cpp)
 target_link_libraries(rgbd_w_t ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
 add_executable(pcl_visual src/pcl_visual.cpp)
 target_link_libraries(pcl_visual ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+add_executable(orb_matching src/orb_matching.cpp)
+target_link_libraries(orb_matching ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+
 
 
 
